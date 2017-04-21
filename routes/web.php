@@ -11,13 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//	return view('welcome');
+//});
 Route::get('/ygh', function () {
-	return 'xxxxxx';
+	return view('welcome');
 });
-/*
- * hello world
- * */
-Route::get('/hello', 'helloController@index');
+Route::get('/', 'helloController@index');
+

@@ -11,6 +11,6 @@ namespace App\Http\Controllers;
 
 class helloController extends Controller{
 	public function index(){
-		echo "覃枭是菜ji";
+		return view("home.index" , ['name' => "world"]);
 	}
 }
