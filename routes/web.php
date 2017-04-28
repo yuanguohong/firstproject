@@ -18,4 +18,5 @@ Route::get('/ygh', function () {
 	return view('welcome');
 });
 Route::get('/', 'helloController@index');
+Route::get('/main', 'helloController@main');
 
