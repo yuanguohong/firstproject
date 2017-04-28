@@ -19,7 +19,7 @@
 		<div id="overlay"></div>
 		<div id="main">
 			<header id="header">
-				<h1>圆圆嘟嘟</h1>
+				<h1>圆圆 · 嘟嘟</h1>
 				<p>欢迎光临</p>
 				<nav>
 					<ul>

@@ -11,7 +11,7 @@ namespace App\Http\Controllers;
 
 class helloController extends Controller{
 	public function index(){
-		return view("home.index" , ['name' => "index"]);
+		return view("home.main" , ['name' => "index"]);
 	}
 	public function main(){
 		return view("home.main" , ['name' => "main"]);
