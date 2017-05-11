@@ -19,4 +19,7 @@ Route::get('/ygh', function () {
 });
 Route::get('/', 'helloController@index');
 Route::get('/main', 'helloController@main');
+Route::get('/ceshi', 'helloController@ceshi');
+
+
 

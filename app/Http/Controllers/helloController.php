@@ -8,6 +8,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Model\User;
+use Illuminate\Support\Facades\DB;
 
 class helloController extends Controller{
 	public function index(){
@@ -15,5 +17,10 @@ class helloController extends Controller{
 	}
 	public function main(){
 		return view("home.main" , ['name' => "main"]);
+	}
+	public function ceshi(){
+//		phpinfo();
+		$user = User::all()->toArray();
+		print_r($user);
 	}
 }
