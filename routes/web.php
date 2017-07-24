@@ -22,5 +22,12 @@ Route::get('/main', 'helloController@main');
 Route::get('/ceshi', 'helloController@ceshi');
 Route::get('/sendemail', 'helloController@sendEmail');
 Route::get('/login', 'Auth\LoginController@index');
+Route::post('/activeLogin', 'Auth\LoginController@activeLogin');
+
+
+// 后台管理
+Route::get('/admin' , 'Admin\adminController@index');
+
+
 
 

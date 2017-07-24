@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Input;
 
 class LoginController extends Controller
 {
@@ -36,7 +37,21 @@ class LoginController extends Controller
     {
         $this->middleware('guest', ['except' => 'logout']);
     }
+
+    /**
+     * 后台登录页
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function index(){
-        echo "OK";
+        return view("login.index");
+    }
+
+    public function activeLogin(){
+        // 用户名
+        $username = Input::get("username", "");
+        // 登录密码
+        $password = Input::get("password" , "");
+        print_r($username);
+        print_r($password);
     }
 }

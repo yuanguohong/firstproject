@@ -2,7 +2,7 @@
 @extends('layouts.master')
 
 <!--设置title-->
-@section('title' , '园圆 · 嘟嘟')
+@section('title' , '圆圆 · 嘟嘟')
 
 <!--设置head-->
 @section('head')
