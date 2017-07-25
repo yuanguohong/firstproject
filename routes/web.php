@@ -26,7 +26,10 @@ Route::post('/activeLogin', 'Auth\LoginController@activeLogin');
 
 
 // 后台管理
-Route::get('/admin' , 'Admin\adminController@index');
+
+Route::group(['prefix' => 'admin'] , function (){
+    Route::get('/' , 'Admin\adminController@index');
+});
 
 
 
