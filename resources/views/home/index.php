@@ -20,7 +20,7 @@
 		<header id="header">
 			<h1>圆圆嘟嘟</h1>
 <!--			<p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p>-->
-			<p>欢迎光临</p>
+			<p>欢迎光临我的网站</p>
 			<nav>
 				<ul>
 					<li><a href="javascript:;" class="icon fa-twitter"><span class="label">Twitter</span></a></li>

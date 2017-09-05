@@ -5,8 +5,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class User extends model {
 	
-	//数据表名
+	//鎸囧畾琛ㄦ槑
 	protected $table = 'user';
-	
+
+    //鎸囧畾 涓婚敭 id
+    protected $primaryKey = 'id';
 	
 }
