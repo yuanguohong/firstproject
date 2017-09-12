@@ -20,7 +20,7 @@
 		<div id="main">
 			<header id="header">
 				<h1>圆圆 · 嘟嘟</h1>
-				<p>欢迎光临我的网站</p>
+				<p>欢迎光临我的网站爱你</p>
 				<nav>
 					<ul>
 						<li><a href="javascript:;" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
