@@ -42,7 +42,7 @@ Route::group(['prefix' => 'admin'] , function (){
 });
 
 // webhooks 自动部署
-Route::get('/webhooks' , 'webhooksController@index');
+Route::any('/webhooks' , 'webhooksController@index');
 
 
 

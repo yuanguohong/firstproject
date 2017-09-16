@@ -12,7 +12,6 @@ namespace App\Http\Controllers;
 class webhooksController extends Controller
 {
     public function index(){
-        $dir = '/www/firstproject';//该目录为git检出目录
-        $handle = shell_exec('cd '.$dir.' && git pull 2>&1');
+        shell_exec( 'cd /www/firstproject && git reset --hard HEAD && git pull origin master' );
     }
 }
