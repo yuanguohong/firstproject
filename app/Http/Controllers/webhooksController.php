@@ -12,7 +12,7 @@ namespace App\Http\Controllers;
 class webhooksController extends Controller
 {
     public function index(){
-        shell_exec( 'cd /www/firstproject && git reset --hard HEAD && git pull origin master' );
+        shell_exec( 'sudo cd /www/firstproject && sudo git reset --hard HEAD && sudo git pull origin master' );
     }
     public function ceshi(){
         echo exec('whoami');
