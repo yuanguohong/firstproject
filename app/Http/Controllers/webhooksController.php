@@ -15,7 +15,8 @@ class webhooksController extends Controller
         shell_exec( 'cd /www/firstproject && git reset --hard HEAD && git pull origin master' );
     }
     public function ceshi(){
-        system('cd /www/firstproject && git reset --hard HEAD && git pull origin master' , $status);
-        echo $status;
+        echo exec('whoami');
+//        system('cd /www/firstproject && git reset --hard HEAD && git pull origin master' , $status);
+//        echo $status;
     }
 }
