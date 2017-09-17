@@ -20,6 +20,9 @@
 Route::get('/ygh', function () {
 	return view('welcome');
 });
+Route::any('/phpinfo', function (){
+    phpinfo();
+});
 Route::get('/', 'helloController@index');
 Route::get('/main', 'helloController@main');
 Route::get('/ceshi', 'helloController@ceshi');
@@ -43,6 +46,7 @@ Route::group(['prefix' => 'admin'] , function (){
 
 // webhooks 自动部署
 Route::any('/webhooks' , 'webhooksController@index');
+Route::any('/webc', 'webhooksController@ceshi');
 
 
 
