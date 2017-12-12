@@ -38,18 +38,18 @@
                 </div>
             </div>
             <ul class="layui-nav admin-header-item">
-                <li class="layui-nav-item">
-                    <a href="javascript:;">清除缓存</a>
-                </li>
-                <li class="layui-nav-item" id="pay">
-                    <a href="javascript:;">捐赠我</a>
-                </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;">浏览网站</a>
-                </li>
-                <li class="layui-nav-item" id="video1">
-                    <a href="javascript:;">视频</a>
-                </li>
+<!--                <li class="layui-nav-item">-->
+<!--                    <a href="javascript:;">清除缓存</a>-->
+<!--                </li>-->
+<!--                <li class="layui-nav-item" id="pay">-->
+<!--                    <a href="javascript:;">捐赠我</a>-->
+<!--                </li>-->
+<!--                <li class="layui-nav-item">-->
+<!--                    <a href="javascript:;">浏览网站</a>-->
+<!--                </li>-->
+<!--                <li class="layui-nav-item" id="video1">-->
+<!--                    <a href="javascript:;">视频</a>-->
+<!--                </li>-->
                 <li class="layui-nav-item">
                     <a href="javascript:;" class="admin-header-user">
                         <img src="images/0.jpg" />
@@ -136,8 +136,8 @@
     window.ontouchmove = function() { return false; }
     window.onorientationchange = function() { document.body.scrollTop = 0; }
 </script>
-<script type="text/javascript" src="/layui/src/layui.js"></script>
-<script type="text/javascript" src="/layui/datas/nav.js"></script>
+<script type="text/javascript" src="/layui/src/layui.js?v=3"></script>
+<script type="text/javascript" src="/layui/datas/nav.js?v=2"></script>
 <script src="/layui/js/index.js"></script>
 <script>
     layui.use('layer', function() {

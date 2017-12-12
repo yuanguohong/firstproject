@@ -42,17 +42,21 @@
 </script>
 <script>
     $('[name="login"]').on("click" , function () {
-        alert("OK");
          $.ajax({
              type: "POST",
-             url: "/activeLogin" ,
+             url: "/admin/activeLogin" ,
              data:{
                  username: $('[name="user"]').val(),
                  password: $('[name="password"]').val()
              },
              dataType:'json',
              success: function (result) {
-                 alert(result);
+                 console.log(result);
+                 if(result.code === 0){
+                     location.href = '/admin';
+                 }else{
+                    alert(result.message);
+                 }
              }
          });
     });

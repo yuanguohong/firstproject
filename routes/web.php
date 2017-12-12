@@ -44,6 +44,14 @@ Route::group(['prefix' => 'admin'] , function (){
     //
 });
 
+// 数据库表格管理
+Route::group(['prefix' => 'data'] , function (){
+
+    //第一次初始化
+    Route::get('/init', 'Data\appController@init');
+    Route::get('/userInit', 'Data\appController@userInit');
+});
+
 // webhooks 自动部署
 Route::any('/webhooks' , 'webhooksController@index');
 Route::any('/webc', 'webhooksController@ceshi');

@@ -45,7 +45,10 @@ class LoginController extends Controller
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index(){
+//        User::create_table();
+//        User::addAdmin();
         return view("login.index");
+
     }
 
     public function activeLogin(){
@@ -53,8 +56,9 @@ class LoginController extends Controller
         $username = Input::get("username", "");
         // 登录密码
         $password = Input::get("password" , "");
-        print_r($username);
-        print_r($password);
-        User::find();
+        // 验证用户
+        $request = User::check_username($username , $password);
+        return $request;
     }
+
 }
