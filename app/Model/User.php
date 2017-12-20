@@ -53,22 +53,25 @@ class User extends model {
         $response = ['code' => 1 , 'message' => '查询失败用户不存在！'];
         // 密码加密
         $pass = self::pass_encrypt($password);
+
         // 查询用户
-        $thisModel = self::whereRaw('username=?' , [$username])->firstOrFail();
-//        print_r($thisModel->password);die;
+        $thisModel = self::whereRaw('username=?' , [$username])->select(['password','id'])->first();
+//        print_r($thisModel);die;
         if(!empty($thisModel)){
             $getPass = $thisModel->password;
             if($getPass === $pass){
                 // 验证成功
                 $response['code'] = 0;
                 $response['message'] = "验证成功";
+                $id = $thisModel->id;
+                $cookie = self::setCookie($id);
             }else{
                 // 验证失败
                 $response['code'] = 2;
                 $response['message'] = "密码输入错误！";
             }
         }
-        return $response;
+        return \response()->json($response)->cookie($cookie);
     }
 
     // 字符串加密
@@ -102,8 +105,10 @@ class User extends model {
         $pwd = false;
         if(!empty($insert)){
             $pwd = Crypt::encrypt($insert);
-        }
+            $cookie = Cookie::make('admin_sess' , $pwd);
 
+            return $cookie;
+        }
         return $pwd;
     }
 
@@ -113,8 +118,10 @@ class User extends model {
         if(!empty($output)){
             $uId = Crypt::decrypt($output);
         }else{
-            $output = Cookie::get("guohong");
-            $uId = Crypt::decrypt($output);
+            $output = Cookie::get("admin_sess");
+            if(!empty($output)) {
+                $uId = Crypt::decrypt($output);
+            }
         }
 
         return $uId;

@@ -1,3 +1,5 @@
 .idea
 .svn
 .env
+com.firstprint.www_access.log
+com.firstproject.www_error.log

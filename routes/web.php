@@ -37,6 +37,7 @@ Route::group(['prefix' => 'admin'] , function (){
     //登录
     Route::get('/login', 'Auth\LoginController@index');
     Route::post('/activeLogin', 'Auth\LoginController@activeLogin');
+    Route::get('/activeLogin', 'Auth\LoginController@activeLogin');
 
     //主页
     Route::get('/' , 'Admin\adminController@index');

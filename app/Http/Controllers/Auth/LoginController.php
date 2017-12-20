@@ -52,12 +52,15 @@ class LoginController extends Controller
     }
 
     public function activeLogin(){
+
         // 用户名
         $username = Input::get("username", "");
         // 登录密码
         $password = Input::get("password" , "");
+
         // 验证用户
         $request = User::check_username($username , $password);
+
         return $request;
     }
 
