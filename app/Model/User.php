@@ -64,14 +64,14 @@ class User extends model {
                 $response['code'] = 0;
                 $response['message'] = "验证成功";
                 $id = $thisModel->id;
-                $cookie = self::setCookie($id);
+                self::setCookie($id);
             }else{
                 // 验证失败
                 $response['code'] = 2;
                 $response['message'] = "密码输入错误！";
             }
         }
-        return \response()->json($response)->cookie($cookie);
+        return response()->json($response);
     }
 
     // 字符串加密
@@ -106,8 +106,7 @@ class User extends model {
         if(!empty($insert)){
             $pwd = Crypt::encrypt($insert);
             $cookie = Cookie::make('admin_sess' , $pwd);
-
-            return $cookie;
+            Cookie::queue($cookie);
         }
         return $pwd;
     }
