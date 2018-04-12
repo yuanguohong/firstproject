@@ -34,7 +34,7 @@
                     <span class="sr-only">Toggle navigation</span>
                 </button>
                 <a id="brand-mobile" class="navbar-brand navbar-brand-center smoothScroll" href="#home">
-                    <img alt="Gonex" src="img/svg/logo.svg">
+                    <img alt="Gonex" src="images/svg/logo.svg">
                 </a>
             </div>
 
@@ -268,7 +268,7 @@
 
                     <div class="title-content">
 
-                        <img class="logo-img" src="img/svg/logo.svg" title="Gonex logo" alt="Uppercase red letter G">
+                        <img class="logo-img" src="images/svg/logo.svg" title="Gonex logo" alt="Uppercase red letter G">
                         <span class="sr-only">Gonex logo</span>
 
                         <h2 class="section-title">Show me the video</h2>
@@ -285,7 +285,7 @@
 
         <figure id="video-container">
 
-            <video id="video-player" controls preload="none" poster="img/transparent.png">
+            <video id="video-player" controls preload="none" poster="images/transparent.png">
                 <source src="video/movie.mp4" type="video/mp4">
                 <source src="video/movie.webm" type="video/webm">
                 <source src="video/movie.ogv" type="video/ogg">
@@ -422,7 +422,7 @@
                 <div class="grid-sizer"></div>
 
                 <div class="grid-item -width3 -height2 mix all app">
-                    <img src="img/works/works_01.jpg" alt="Picture of work number 1">
+                    <img src="images/works/works_01.jpg" alt="Picture of work number 1">
 
                     <div class="overlay">
                         <div class="content">
@@ -437,7 +437,7 @@
                 </div>
 
                 <div class="grid-item -width2 mix all programming">
-                    <img src="img/works/works_02.jpg" alt="Picture of work number 2">
+                    <img src="images/works/works_02.jpg" alt="Picture of work number 2">
 
                     <div class="overlay">
                         <div class="content">
@@ -452,7 +452,7 @@
                 </div>
 
                 <div class="grid-item -width2 mix all graphic_design">
-                    <img src="img/works/works_03.jpg" alt="Picture of work number 3">
+                    <img src="images/works/works_03.jpg" alt="Picture of work number 3">
 
                     <div class="overlay">
                         <div class="content">
@@ -467,7 +467,7 @@
                 </div>
 
                 <div class="grid-item -width3 mix all graphic_design">
-                    <img src="img/works/works_04.jpg" alt="Picture of work number 4">
+                    <img src="images/works/works_04.jpg" alt="Picture of work number 4">
 
                     <div class="overlay">
                         <div class="content">
@@ -482,7 +482,7 @@
                 </div>
 
                 <div class="grid-item -width2 mix all web">
-                    <img src="img/works/works_05.jpg" alt="Picture of work number 5">
+                    <img src="images/works/works_05.jpg" alt="Picture of work number 5">
 
                     <div class="overlay">
                         <div class="content">
@@ -497,7 +497,7 @@
                 </div>
 
                 <div class="grid-item -width5 mix all photography">
-                    <img src="img/works/works_06.jpg" alt="Picture of work number 6">
+                    <img src="images/works/works_06.jpg" alt="Picture of work number 6">
 
                     <div class="overlay">
                         <div class="content">
@@ -728,7 +728,7 @@
 
                         <a href="tel:998-776-54321098">
 
-                            <img class="icon" src="img/contact/phone.png" alt="Phone Icon">
+                            <img class="icon" src="images/contact/phone.png" alt="Phone Icon">
 
                             <span class="data">998 776 54321098</span>
 
@@ -744,7 +744,7 @@
 
                         <a href="mailto:gonex@mail.com">
 
-                            <img class="icon" src="img/contact/mail.png" alt="Mail Icon">
+                            <img class="icon" src="images/contact/mail.png" alt="Mail Icon">
 
                             <span class="data">gonex@mail.com</span>
 
@@ -760,7 +760,7 @@
 
                         <button id="toggle-map" data-toggle="modal" data-target="#map-modal">
 
-                            <img class="icon" src="img/contact/map.png" alt="Map Icon">
+                            <img class="icon" src="images/contact/map.png" alt="Map Icon">
 
                             <span class="data">787 Gonex Avenue, New York</span>
 
