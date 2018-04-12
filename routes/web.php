@@ -27,6 +27,7 @@ Route::get('/', 'helloController@index');
 Route::get('/main', 'helloController@main');
 Route::get('/ceshi', 'helloController@ceshi');
 Route::get('/sendemail', 'helloController@sendEmail');
+Route::get('/zjd' , 'helloController@zjdIndex');
 
 
 

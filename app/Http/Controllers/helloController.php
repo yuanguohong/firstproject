@@ -39,4 +39,8 @@ class helloController extends Controller{
 			echo '发送邮件失败，请重试！';
 		}
 	}
+	// 中聚德首页
+    public function zjdIndex(){
+	    return view("zjdHome.index" , ['name' => 'index']);
+    }
 }
