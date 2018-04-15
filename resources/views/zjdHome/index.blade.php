@@ -18,11 +18,11 @@
 <header id="header">
 
     <!-- Section title -->
-    <h1 class="sr-only">Gonex | Home page</h1>
+    <h1 class="sr-only">中聚德 | 首页</h1>
 
     <nav id="main-navigation" class="navbar navbar-default navbar-fixed-top">
         <!-- Section title -->
-        <h1 class="sr-only">Main navigation</h1>
+        <h1 class="sr-only">导航栏</h1>
 
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -31,10 +31,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">切换导航</span>
                 </button>
                 <a id="brand-mobile" class="navbar-brand navbar-brand-center smoothScroll" href="#home">
-                    <img alt="Gonex" src="images/svg/logo.svg">
+                    <img alt="Gonex" src="images/logo/logo.png">
                 </a>
             </div>
 
@@ -45,27 +45,27 @@
 
                     <button type="button" id="btn-togglesearch" class="btn-search">
                         <span class="ico ico-search-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Toggle search</span>
+                        <span class="sr-only">搜索</span>
                     </button>
 
                     <div id="search-input" class="search-input">
-                        <input type="text" placeholder="Search">
+                        <input type="text" placeholder="搜索">
                     </div>
 
                     <button type="submit" id="btn-submitsearch" class="btn-search">
                         <span class="ico ico-search-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Submit search</span>
+                        <span class="sr-only">搜索</span>
                     </button>
 
                 </form>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a class="smoothScroll" href="#home">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a class="smoothScroll" href="#services">Services</a></li>
-                    <li><a class="smoothScroll" href="#work">Work</a></li>
-                    <li><a class="smoothScroll" href="#about">About us</a></li>
-                    <li><a class="smoothScroll" href="#skills">Skills</a></li>
-                    <li><a class="smoothScroll" href="#contact">Contact</a></li>
+                    <li class="active"><a class="smoothScroll" href="#home">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a class="smoothScroll" href="#services">服务</a></li>
+                    <li><a class="smoothScroll" href="#work">工作</a></li>
+                    <li><a class="smoothScroll" href="#about">关于我们</a></li>
+                    <li><a class="smoothScroll" href="#skills">其他</a></li>
+                    <li><a class="smoothScroll" href="#contact">联系我们</a></li>
                 </ul>
 
             </div><!-- /.navbar-collapse -->
@@ -94,27 +94,11 @@
 
                     <div class="carousel-caption">
 
-                        <span class="h1">We are gonex</span>
+                        <span class="h1">中聚德</span>
 
-                        <p>Dui aliquam quisque. Nec feugiat ut neque odio quo, proin interdum, quis elit varius et duis, dui augue vehicula nam tinc.</p>
+                        <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
-                        <a href="#" class="btn btn-default green-white">Show me more</a>
-
-                    </div>
-
-                </div> <!-- /.item -->
-
-                <div class="item">
-
-                    <div class="overlay"></div>
-
-                    <div class="carousel-caption">
-
-                        <span class="h1">We are gonex</span>
-
-                        <p>Dui aliquam quisque. Nec feugiat ut neque odio quo, proin interdum, quis elit varius et duis, dui augue vehicula nam tinc.</p>
-
-                        <a href="#" class="btn btn-default green-white">Show me more</a>
+                        <a href="#" class="btn btn-default green-white">点我展示更多</a>
 
                     </div>
 
@@ -126,11 +110,27 @@
 
                     <div class="carousel-caption">
 
-                        <span class="h1">We are gonex</span>
+                        <span class="h1">中聚德</span>
 
-                        <p>Dui aliquam quisque. Nec feugiat ut neque odio quo, proin interdum, quis elit varius et duis, dui augue vehicula nam tinc.</p>
+                        <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
-                        <a href="#" class="btn btn-default green-white">Show me more</a>
+                        <a href="#" class="btn btn-default green-white">中聚德2</a>
+
+                    </div>
+
+                </div> <!-- /.item -->
+
+                <div class="item">
+
+                    <div class="overlay"></div>
+
+                    <div class="carousel-caption">
+
+                        <span class="h1">中聚德</span>
+
+                        <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
+
+                        <a href="#" class="btn btn-default green-white">中聚德3</a>
 
                     </div>
 
@@ -141,11 +141,11 @@
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-hero" role="button" data-slide="prev">
                 <span class="ico ico-arrow_left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">上一步</span>
             </a>
             <a class="right carousel-control" href="#carousel-hero" role="button" data-slide="next">
                 <span class="ico ico-arrow_right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">下一步</span>
             </a>
 
         </div> <!-- /.carousel -->
@@ -155,7 +155,7 @@
     <section id="services">
 
         <!-- Section title -->
-        <h1 class="sr-only">Services</h1>
+        <h1 class="sr-only">服务</h1>
 
         <div class="container">
 
@@ -166,9 +166,9 @@
                     <div class="punchbox">
 
                         <h2 class="punchline">
-                            <span>What we do</span>
-                            <span>best</span>
-                            <span>see it for yourself</span>
+                            <span>中聚德</span>
+                            <span>中聚德</span>
+                            <span>中聚德</span>
                         </h2>
 
                     </div> <!-- /.punchbox -->
@@ -179,11 +179,11 @@
 
                     <div class="service">
 
-                        <h4>Photography</h4>
+                        <h4>摄影</h4>
 
-                        <p>Nec feugiat ut neque odio quo, interdum, quis elit varius.</p>
+                        <p>摄影简介摄影简介摄影简介摄影简介摄影简介摄影简介摄影简介</p>
 
-                        <a href="#" class="service-link">See projects</a>
+                        <a href="#" class="service-link">查看简介</a>
 
                     </div> <!-- /.service -->
 
@@ -193,11 +193,11 @@
 
                     <div class="service">
 
-                        <h4>Graphic design</h4>
+                        <h4>设计</h4>
 
-                        <p>Nec feugiat ut neque odio quo, interdum, quis elit varius.</p>
+                        <p>设计简介</p>
 
-                        <a href="#" class="service-link">See projects</a>
+                        <a href="#" class="service-link">查看简介</a>
 
                     </div> <!-- /.service -->
 
@@ -211,25 +211,11 @@
 
                     <div class="service">
 
-                        <h4>App development</h4>
+                        <h4>开发</h4>
 
-                        <p>Nec feugiat ut neque odio quo, interdum, quis elit varius.</p>
+                        <p>开发简介开发简介开发简介开发简介开发简介开发简介</p>
 
-                        <a href="#" class="service-link">See projects</a>
-
-                    </div> <!-- /.service -->
-
-                </div>
-
-                <div class="col-md-4">
-
-                    <div class="service">
-
-                        <h4>Programming</h4>
-
-                        <p>Nec feugiat ut neque odio quo, interdum, quis elit varius.</p>
-
-                        <a href="#" class="service-link">See projects</a>
+                        <a href="#" class="service-link">查看简介</a>
 
                     </div> <!-- /.service -->
 
@@ -239,11 +225,25 @@
 
                     <div class="service">
 
-                        <h4>Web coding</h4>
+                        <h4>编程</h4>
 
-                        <p>Nec feugiat ut neque odio quo, interdum, quis elit varius.</p>
+                        <p>编程简介编程简介编程简介编程简介编程简介编程简介编程简介编程简介编程简介编程简介</p>
 
-                        <a href="#" class="service-link">See projects</a>
+                        <a href="#" class="service-link">查看简介</a>
+
+                    </div> <!-- /.service -->
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="service">
+
+                        <h4>网页</h4>
+
+                        <p>网页编码网页编码网页编码网页编码网页编码网页编码</p>
+
+                        <a href="#" class="service-link">查看源码</a>
 
                     </div> <!-- /.service -->
 
@@ -255,7 +255,7 @@
 
     </section>
 
-    <section id="video">
+    <section id="video" style="display: none;">
 
         <!-- Section title -->
         <h1 class="sr-only">Video</h1>
@@ -366,7 +366,6 @@
 
 
     </section>
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
 
     <section id="work">
 
@@ -378,10 +377,9 @@
 
                     <div class="title-content">
 
-                        <h2 class="section-title">Works</h2>
+                        <h2 class="section-title">工作</h2>
 
-                        <p>Dui aliquam quisque. Nec feugiat ut neque odio quo, proin interdum,
-                            quis elit varius et duis, dui augue vehicula nam tinc.</p>
+                        <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
                     </div> <!-- /.title-content -->
 
@@ -396,15 +394,15 @@
                     <nav id="works-navigation" class="navbar">
 
                         <!-- Section title -->
-                        <h1 class="sr-only">Works navigation</h1>
+                        <h1 class="sr-only">工作报告</h1>
 
                         <ul class="nav navbar-nav">
-                            <li><button class="filter mixitup-control-active" type="button" data-mixitup-control data-filter="all">All</button></li>
-                            <li><button class="filter" type="button" data-mixitup-control data-filter=".photography">Photography</button></li>
-                            <li><button class="filter" type="button" data-mixitup-control data-filter=".graphic_design">Graphic design</button></li>
+                            <li><button class="filter mixitup-control-active" type="button" data-mixitup-control data-filter="all">所有</button></li>
+                            <li><button class="filter" type="button" data-mixitup-control data-filter=".photography">摄影</button></li>
+                            <li><button class="filter" type="button" data-mixitup-control data-filter=".graphic_design">服务</button></li>
                             <li><button class="filter" type="button" data-mixitup-control data-filter=".app">App</button></li>
-                            <li><button class="filter" type="button" data-mixitup-control data-filter=".programming">Programming</button></li>
-                            <li><button class="filter" type="button" data-mixitup-control data-filter=".web">Web</button></li>
+                            <li><button class="filter" type="button" data-mixitup-control data-filter=".programming">其他</button></li>
+                            <li><button class="filter" type="button" data-mixitup-control data-filter=".web">网页</button></li>
                         </ul>
 
                     </nav> <!-- /#works-navigation -->
@@ -426,7 +424,7 @@
 
                     <div class="overlay">
                         <div class="content">
-                            <p class="description">Awesome image</p>
+                            <p class="description">图像1</p>
                             <p class="likes">
                                 <a href="#"><span class="ico ico-heart_icon" aria-hidden="true"></span></a>
                                 <span class="count">76</span> Likes
@@ -441,7 +439,7 @@
 
                     <div class="overlay">
                         <div class="content">
-                            <p class="description">Awesome image</p>
+                            <p class="description">图像2</p>
                             <p class="likes">
                                 <a href="#"><span class="ico ico-heart_icon" aria-hidden="true"></span></a>
                                 <span class="count">76</span> Likes
@@ -456,7 +454,7 @@
 
                     <div class="overlay">
                         <div class="content">
-                            <p class="description">Awesome image</p>
+                            <p class="description">图像3</p>
                             <p class="likes">
                                 <a href="#"><span class="ico ico-heart_icon" aria-hidden="true"></span></a>
                                 <span class="count">76</span> Likes
@@ -471,7 +469,7 @@
 
                     <div class="overlay">
                         <div class="content">
-                            <p class="description">Awesome image</p>
+                            <p class="description">图像4</p>
                             <p class="likes">
                                 <a href="#"><span class="ico ico-heart_icon" aria-hidden="true"></span></a>
                                 <span class="count">76</span> Likes
@@ -486,7 +484,7 @@
 
                     <div class="overlay">
                         <div class="content">
-                            <p class="description">Awesome image</p>
+                            <p class="description">图像5</p>
                             <p class="likes">
                                 <a href="#"><span class="ico ico-heart_icon" aria-hidden="true"></span></a>
                                 <span class="count">76</span> Likes
@@ -501,7 +499,7 @@
 
                     <div class="overlay">
                         <div class="content">
-                            <p class="description">Awesome image</p>
+                            <p class="description">图像6</p>
                             <p class="likes">
                                 <a href="#"><span class="ico ico-heart_icon" aria-hidden="true"></span></a>
                                 <span class="count">76</span> Likes
@@ -528,12 +526,12 @@
                     <div class="title-content">
 
                         <h2 class="section-title">
-                            About us
+                            关于我们
                         </h2>
 
-                        <p class="subtitle">Some simple word about our company</p>
+                        <p class="subtitle">中聚德</p>
 
-                        <p>Ad graeci omnium minimum sit, augue discere complectitur est te. Mea expetenda intellegebat no, reque signiferumque qui te, ad denique omittam mei. Veri numquam inciderint pri ad, saepe essent ut sea, nam ei civibus denique eleifend. Dicat pertinax ut vix, mazim platonem ea has. Partiendo intellegam ex eos, eos putant alienum ea. Ut malorum ponderum vituperata eum.</p>
+                        <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
                     </div> <!-- /.title-content -->
 
@@ -555,10 +553,9 @@
 
                     <div class="title-content">
 
-                        <h2 class="section-title">Gonex statistic</h2>
+                        <h2 class="section-title">中聚德</h2>
 
-                        <p>Dui aliquam quisque. Nec feugiat ut neque odio quo, proin interdum,
-                            quis elit varius et duis, dui augue vehicula nam tinc.</p>
+                        <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
                     </div> <!-- /.title-content -->
 
@@ -574,7 +571,7 @@
 
                         <div class="skill">
 
-                            <p class="name">Photography</p>
+                            <p class="name">摄影</p>
 
                             <span class="percent" style="left: 93%;">93%</span>
 
@@ -634,7 +631,7 @@
 
                         <div class="skill">
 
-                            <p class="name">Programming</p>
+                            <p class="name">编程</p>
 
                             <span class="percent" style="left: 53%;">53%</span>
 
@@ -685,7 +682,7 @@
     <section id="contact">
 
         <!-- Section title -->
-        <h1 class="sr-only">Contact</h1>
+        <h1 class="sr-only">联系我们</h1>
 
         <div class="container">
 
@@ -693,7 +690,7 @@
 
                 <div class="col-md-6 col-md-offset-3">
 
-                    <h2 class="sr-only">Subscribe to our newsletter</h2>
+                    <h2 class="sr-only">中聚德</h2>
 
                     <form class="subscribe-form">
 
@@ -701,14 +698,14 @@
 
                             <div class="col-sm-8">
 
-                                <label class="sr-only" for="Email">Email</label>
-                                <input type="email" id="Email" placeholder="Email Address">
+                                <label class="sr-only" for="Email">邮箱</label>
+                                <input type="email" id="Email" placeholder="邮箱地址">
 
                             </div>
 
                             <div class="col-sm-4">
 
-                                <button type="submit" class="btn btn-default red-white">Subscribe</button>
+                                <button type="submit" class="btn btn-default red-white">提交</button>
 
                             </div>
 
@@ -726,11 +723,11 @@
 
                     <div class="contact-info">
 
-                        <a href="tel:998-776-54321098">
+                        <a href="tel:电话号码">
 
                             <img class="icon" src="images/contact/phone.png" alt="Phone Icon">
 
-                            <span class="data">998 776 54321098</span>
+                            <span class="data">电话号码</span>
 
                         </a>
 
@@ -746,7 +743,7 @@
 
                             <img class="icon" src="images/contact/mail.png" alt="Mail Icon">
 
-                            <span class="data">gonex@mail.com</span>
+                            <span class="data">admin@sczjd.cn</span>
 
                         </a>
 
@@ -762,7 +759,7 @@
 
                             <img class="icon" src="images/contact/map.png" alt="Map Icon">
 
-                            <span class="data">787 Gonex Avenue, New York</span>
+                            <span class="data">绵阳市茂业大厦</span>
 
                         </button>
 
@@ -772,7 +769,7 @@
 
             </div> <!-- /.row -->
 
-            <div class="row social-holder">
+            <div class="row social-holder" style="display: none;">
 
                 <div class="col-md-4 col-md-offset-4">
 
@@ -806,7 +803,7 @@
     <!-- Section title -->
     <h1 class="sr-only">Footer</h1>
 
-    <p class="copyright text-green"> © <span id="year">2016</span> - Gonex All Rights Reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+    <p class="copyright text-green"> © <span id="year">2018</span> - Gonex All Rights Reserved. More Templates </p>
 
 </footer>
 
@@ -818,7 +815,7 @@
 
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h1 class="modal-title h4">787 Gonex Avenue, New York</h1>
+                <h1 class="modal-title h4">绵阳市茂业大厦</h1>
             </div>
 
             <div class="modal-body">

@@ -230,16 +230,16 @@ NAVIGATION
 }
 
 #main-navigation.navbar-default {
-	background-color: #161718;
+	background-color: #a0a0a0;
 }
 
 #main-navigation .navbar-brand {
 	height: 85px;
-	padding: 26px 25px 26px;
+	padding: 0px 25px 0px;
 }
 
 #main-navigation .navbar-brand img {
-	max-height: 33px;
+	max-height: 83px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -433,7 +433,7 @@ HOME SECTION
 
 .carousel .item {
 	height: 715px;
-	background: url("../img/slider_background.jpg") center center no-repeat;
+	background: url("/images/slider_background.jpg") center center no-repeat;
 	background-size: cover;
 }
 
@@ -601,7 +601,7 @@ VIDEO SECTION
 ***********************/
 
 #video {
-	background: url(../img/video_background.png) center center no-repeat;
+	background: url(/images/video_background.png) center center no-repeat;
 	background-size: cover;
 	min-height: 670px;
 	color: #ffffff;
@@ -634,14 +634,14 @@ VIDEO SECTION
 }
 
 #video-container.is-active {
-	background: url(../img/video_background.png) center no-repeat;
+	background: url(/images/video_background.png) center no-repeat;
 	background-size: cover;
 }
 
 #video-player {
 	max-width: 100%;
 	height: 100%;
-	background: url(../img/transparent.png);
+	background: url(/images/transparent.png);
 }
 
 /***** Video Controls *****/
@@ -937,7 +937,7 @@ input[type=range].volume-bar:focus::-ms-fill-upper {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: url(../img/video_background.png) center no-repeat;
+	background: url(/images/video_background.png) center no-repeat;
 	background-size: cover;
 }
 
@@ -1158,7 +1158,7 @@ ABOUT US SECTION
 #about {
 	min-height: 950px;
 	background-color: #324651;
-	background: url(../img/about_us_bg.jpg) center no-repeat;
+	background: url(/images/about_us_bg.jpg) center no-repeat;
 	background-size: cover;
 }
 
