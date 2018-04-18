@@ -34,7 +34,7 @@
                     <span class="sr-only">切换导航</span>
                 </button>
                 <a id="brand-mobile" class="navbar-brand navbar-brand-center smoothScroll" href="#home">
-                    <img alt="Gonex" src="images/logo/logo.png">
+                    <img alt="Gonex" src="images/logo/logo.svg">
                 </a>
             </div>
 
@@ -61,10 +61,10 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a class="smoothScroll" href="#home">首页 <span class="sr-only">(current)</span></a></li>
-                    <li><a class="smoothScroll" href="#services">服务</a></li>
-                    <li><a class="smoothScroll" href="#work">工作</a></li>
+                    <li><a class="smoothScroll" href="#services">简介</a></li>
+                    <li><a class="smoothScroll" href="#work">新闻资讯</a></li>
                     <li><a class="smoothScroll" href="#about">关于我们</a></li>
-                    <li><a class="smoothScroll" href="#skills">其他</a></li>
+<!--                    <li><a class="smoothScroll" href="#skills">其他</a></li>-->
                     <li><a class="smoothScroll" href="#contact">联系我们</a></li>
                 </ul>
 
