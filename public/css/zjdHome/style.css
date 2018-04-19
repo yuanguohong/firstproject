@@ -204,7 +204,7 @@ ICON FONT
 ***********************/
 
 .ico, .fa {
-	color: #ffffff;
+	color: #57c654;
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -230,7 +230,7 @@ NAVIGATION
 }
 
 #main-navigation.navbar-default {
-	background-color: #a0a0a0;
+	background-color: #fff;
 }
 
 #main-navigation .navbar-brand {
@@ -244,8 +244,8 @@ NAVIGATION
 
 .navbar-default .navbar-nav>li>a {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 12px;
-	color: #ffffff;
+	font-size: 16px;
+	color: #000;
 	padding: 32px 25px 33px;
 }
 
@@ -285,7 +285,7 @@ NAVIGATION
 }
 
 #main-navigation .navbar-form .btn-search .ico-search-icon {
-	color: #ffffff;
+	color: #57c654;
 }
 
 #main-navigation .navbar-form .btn-search:hover .ico-search-icon,
@@ -375,7 +375,7 @@ NAVIGATION
 }
 
 #main-navigation .navbar-toggle.collapsed .icon-bar {
-	background: #ffffff;
+	background: #57c654;
 }
 
 .navbar-toggle .icon-bar:nth-of-type(1) {
