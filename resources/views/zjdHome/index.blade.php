@@ -46,7 +46,7 @@
 
                     <button type="button" id="btn-togglesearch" class="btn-search">
                         <span class="ico ico-search-icon" aria-hidden="true"></span>
-                        <span class="sr-only">搜索</span>
+                        <span class="sr-only">搜索s</span>
                     </button>
 
                     <div id="search-input" class="search-input">
@@ -55,7 +55,7 @@
 
                     <button type="submit" id="btn-submitsearch" class="btn-search">
                         <span class="ico ico-search-icon" aria-hidden="true"></span>
-                        <span class="sr-only">搜索</span>
+                        <span class="sr-only">搜索e</span>
                     </button>
 
                 </form>
