@@ -34,7 +34,8 @@
                     <span class="sr-only">切换导航</span>
                 </button>
                 <a id="brand-mobile" class="navbar-brand navbar-brand-center smoothScroll" href="#home">
-                    <img alt="Gonex" src="images/logo/logo.svg">
+<!--                    <img alt="Gonex" src="images/logo/logo.svg">-->
+                    <iframe src="images/logo/logo.png" width="83" height="83"></iframe>
                 </a>
             </div>
 
@@ -696,20 +697,35 @@
 
                         <div class="row">
 
-                            <div class="col-sm-8">
+                            <div class="col-sm-12">
 
                                 <label class="sr-only" for="Email">邮箱</label>
                                 <input type="email" id="Email" placeholder="邮箱地址">
 
                             </div>
 
-                            <div class="col-sm-4">
+                        </div> <!-- /.row -->
+
+                        <div class="row">
+
+                            <div class="col-lg-12">
+
+                                <label class="sr-only" for="Email">电话</label>
+                                <input type="email" id="number" placeholder="电话号码">
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-sm-12">
 
                                 <button type="submit" class="btn btn-default red-white">提交</button>
 
                             </div>
 
-                        </div> <!-- /.row -->
+                        </div>
 
                     </form> <!-- /.subscribe-form -->
 
