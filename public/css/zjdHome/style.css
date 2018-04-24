@@ -1285,6 +1285,41 @@ CONTACT US SECTION
   color: #55565b;
 }
 
+#contact .subscribe-form #Number {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 9px;
+	background: transparent;
+	color: #999999;
+	border: 1px solid #55565b;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1;
+
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#contact .subscribe-form #Number:focus,
+#contact .subscribe-form #Number:active {
+	outline: none;
+	border: 1px solid #999999;
+}
+
+#contact .subscribe-form #Number::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #55565b;
+}
+#contact .subscribe-form #Number::-moz-placeholder { /* Firefox 19+ */
+	color: #55565b;
+}
+#contact .subscribe-form #Number:-ms-input-placeholder { /* IE 10+ */
+	color: #55565b;
+}
+#contact .subscribe-form #Number:-moz-placeholder { /* Firefox 18- */
+	color: #55565b;
+}
+
 /****** Contact Info *****/
 
 #contact .row.contact-holder {
