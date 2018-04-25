@@ -34,8 +34,9 @@
                     <span class="sr-only">切换导航</span>
                 </button>
                 <a id="brand-mobile" class="navbar-brand navbar-brand-center smoothScroll" href="#home">
-<!--                    <img alt="Gonex" src="images/logo/logo.svg">-->
-                    <iframe src="images/logo/logo.png" width="83" height="83"></iframe>
+                    <img alt="zjd" src="/images/logo/zjdlogo.png">
+<!--                    <iframe src="images/logo/logo.png" width="83" height="83"></iframe>-->
+<!--                    <object data="/images/logo/logo.png" width="83" height="83" type="image/svg+xml" codebase="http://www.adobe.com/svg/viewer/install/"></object>-->
                 </a>
             </div>
 

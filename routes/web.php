@@ -23,11 +23,13 @@ Route::get('/ygh', function () {
 Route::any('/phpinfo', function (){
     phpinfo();
 });
-Route::get('/', 'helloController@index');
+
+
+Route::get('/' , 'helloController@zjdIndex');
+Route::get('/index', 'helloController@index');
 Route::get('/main', 'helloController@main');
 Route::get('/ceshi', 'helloController@ceshi');
 Route::get('/sendemail', 'helloController@sendEmail');
-Route::get('/zjd' , 'helloController@zjdIndex');
 
 
 
