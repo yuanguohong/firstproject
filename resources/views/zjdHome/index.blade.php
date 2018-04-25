@@ -695,23 +695,23 @@
 
                     <form class="subscribe-form">
 
-                        <div class="row">
+                        <div class="row" style="padding-bottom: 20px;">
 
-                            <div class="col-sm-12">
+                            <div class="col-sm-12" style="text-align: center;">
 
                                 <label class="sr-only" for="Email">邮箱</label>
-                                <input type="email" id="Email" placeholder="邮箱地址">
+                                <input type="email" id="Email" placeholder="邮箱地址" style="width: 60%;">
 
                             </div>
 
                         </div> <!-- /.row -->
 
-                        <div class="row">
+                        <div class="row" style="padding-bottom: 20px;">
 
-                            <div class="col-lg-12">
+                            <div class="col-sm-12" style="text-align: center;">
 
-                                <label class="sr-only" for="Email">电话</label>
-                                <input type="email" id="number" placeholder="电话号码">
+                                <label class="sr-only" for="Number">电话</label>
+                                <input type="text" id="Number" placeholder="电话号码" style="width: 60%;">
 
                             </div>
 
@@ -719,7 +719,7 @@
 
                         <div class="row">
 
-                            <div class="col-sm-12">
+                            <div class="col-sm-12" style="text-align: center;">
 
                                 <button type="submit" class="btn btn-default red-white">提交</button>
 

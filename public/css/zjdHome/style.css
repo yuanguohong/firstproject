@@ -109,7 +109,7 @@ button > * {
 
 .btn-default {
 	padding: 9px 0;
-	width: 230px;
+	width: 60%;
 	text-transform: uppercase;
 	font-size: 15px;
 	border: none;
@@ -1250,7 +1250,7 @@ CONTACT US SECTION
 	color: #55565b;
 }
 
-#contact .subscribe-form #Email {
+#contact .subscribe-form #Email,#Number {
 	box-sizing: border-box;
 	width: 100%;
 	padding: 9px;
