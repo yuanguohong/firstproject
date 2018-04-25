@@ -239,7 +239,8 @@ NAVIGATION
 }
 
 #main-navigation .navbar-brand img {
-	max-height: 83px;
+    padding-top: 9px;
+	max-height: 65px;
 }
 
 .navbar-default .navbar-nav>li>a {
