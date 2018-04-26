@@ -100,7 +100,7 @@
 
                         <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
-                        <a href="#" class="btn btn-default green-white">点我展示更多</a>
+                        <a href="#" class="btn btn-default green-white" style="display: none;">点我展示更多</a>
 
                     </div>
 
@@ -116,7 +116,7 @@
 
                         <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
-                        <a href="#" class="btn btn-default green-white">中聚德2</a>
+                        <a href="#" class="btn btn-default green-white" style="display: none;">中聚德2</a>
 
                     </div>
 
@@ -132,7 +132,7 @@
 
                         <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
-                        <a href="#" class="btn btn-default green-white">中聚德3</a>
+                        <a href="#" class="btn btn-default green-white" style="display: none;">中聚德3</a>
 
                     </div>
 
@@ -160,6 +160,11 @@
         <h1 class="sr-only">服务</h1>
 
         <div class="container">
+            <p>个人介绍 您好! 我来自郑州,我是一名信息工程大学印刷工程专业应届本科即将毕业的学员。 我的性格偏于内向,为人坦率、热情、讲求原则;处事乐观、专心、细致</p>
+            <p>个人介绍 您好! 我来自郑州,我是一名信息工程大学印刷工程专业应届本科即将毕业的学员。 我的性格偏于内向,为人坦率、热情、讲求原则;处事乐观、专心、细致</p>
+            <p>个人介绍 您好! 我来自郑州,我是一名信息工程大学印刷工程专业应届本科即将毕业的学员。 我的性格偏于内向,为人坦率、热情、讲求原则;处事乐观、专心、细致</p>
+        </div>
+        <div class="container" style="display: none;">
 
             <div class="row">
 
@@ -545,7 +550,7 @@
 
     </section>
 
-    <section id="skills">
+    <section id="skills" style="display: none;">
 
         <div class="container">
 
