@@ -56,7 +56,7 @@
 
                     <button type="submit" id="btn-submitsearch" class="btn-search">
                         <span class="ico ico-search-icon" aria-hidden="true"></span>
-                        <span class="sr-only">搜索e</span>
+                        <span class="sr-only">搜索</span>
                     </button>
 
                 </form>
@@ -90,15 +90,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
 
-                <div class="item active">
+                <div class="item active item_one">
 
                     <div class="overlay"></div>
 
                     <div class="carousel-caption">
 
-                        <span class="h1">中聚德</span>
+                        <span class="h1" style="display:none;">中聚德</span>
 
-                        <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
+                        <p style="display:none;">中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
                         <a href="#" class="btn btn-default green-white" style="display: none;">点我展示更多</a>
 
@@ -106,15 +106,15 @@
 
                 </div> <!-- /.item -->
 
-                <div class="item">
+                <div class="item item_two">
 
                     <div class="overlay"></div>
 
                     <div class="carousel-caption">
 
-                        <span class="h1">中聚德</span>
+                        <span class="h1" style="display:none;">中聚德</span>
 
-                        <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
+                        <p style="display:none;">中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
                         <a href="#" class="btn btn-default green-white" style="display: none;">中聚德2</a>
 
@@ -122,15 +122,15 @@
 
                 </div> <!-- /.item -->
 
-                <div class="item">
+                <div class="item item_there">
 
                     <div class="overlay"></div>
 
                     <div class="carousel-caption">
 
-                        <span class="h1">中聚德</span>
+                        <span class="h1" style="display:none;">中聚德</span>
 
-                        <p>中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
+                        <p style="display:none;">中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德中聚德</p>
 
                         <a href="#" class="btn btn-default green-white" style="display: none;">中聚德3</a>
 
@@ -160,9 +160,12 @@
         <h1 class="sr-only">服务</h1>
 
         <div class="container">
-            <p>个人介绍 您好! 我来自郑州,我是一名信息工程大学印刷工程专业应届本科即将毕业的学员。 我的性格偏于内向,为人坦率、热情、讲求原则;处事乐观、专心、细致</p>
-            <p>个人介绍 您好! 我来自郑州,我是一名信息工程大学印刷工程专业应届本科即将毕业的学员。 我的性格偏于内向,为人坦率、热情、讲求原则;处事乐观、专心、细致</p>
-            <p>个人介绍 您好! 我来自郑州,我是一名信息工程大学印刷工程专业应届本科即将毕业的学员。 我的性格偏于内向,为人坦率、热情、讲求原则;处事乐观、专心、细致</p>
+            <p><h4>四川中聚德企业管理服务有限公司</h4></p>
+            <p>&nbsp;</p>
+            <p style="text-align: left;color: #555;text-indent: 2em;">四川中聚德企业管理服务有限公司于2014年成立，办公地址位于绵阳市涪城区金和大厦24-12号，公司在国家工商行政管理总局备案登记，集商标、专利、著作权、国家项目申报与认定等综合性的管理咨询服务公司，我司在一线城市均设有多家分支机构与战略合作伙伴。旨在指导企业创新发展，帮助提升软实力，促进企业转型升级，整理资源，创造有利条件。其定位是为中国创新提供系统的解决方案 与信息服务。致力于通过网络科技等手段，为政府知识产权行政管理、 为企业、为个人智慧财产创造、运用、保护和管理提供高质量的解决 方案。</p>
+            <p style="text-align: left;color: #555;text-indent: 2em;">我们热枕于知识产权领域，以打造二十一世纪中国最优秀的知识产权人才为己任。同时，公司是中小企业健康发展的良师益友，为中小企业提供全面的技术支持与法律服务——全程保姆式服务。公司高管长期从事知识产权申请及项目申报策划服务工作。熟悉国家产业政策，了解各行业发展动态，有深厚的文字功底，认证业务和项目申报中，能结合企业实际和政策文件要求，高效完成材料收集、整理、撰写和网络申报工作，指导项目实施、结题和顺利验收。</p>
+            <p style="text-align: left;color: #555;text-indent: 2em;">截至2018年，我司为近两百家中小型企业提供过知识产权服务。其专利的授权率达92.6%，申请注册商标1056件；为企业申报科技、经信、农业补助类项目等，并帮助多家企业获得高新技术企业称号。</p>
+            <p style="text-align: left;color: #555;text-indent: 2em;">今年3月5日“两会”中总理关于知识产权政府工作的建议，要求保护产权、公平竞争为基本导向，实行侵权惩罚性赔偿制度和完善相关法律法规。对各种侵权行为要依法严肃处理，对产权纠纷案件要依法甄别纠正。大众创业、万众创新的当下，需要我们加强知识产权保护，企业和个人需明确知识产权的重要性。</p>
         </div>
         <div class="container" style="display: none;">
 
@@ -376,7 +379,7 @@
 
     <section id="work">
 
-        <div class="container">
+        <div class="container" style="display: none;">
 
             <div class="row">
 
@@ -420,7 +423,7 @@
 
         </div> <!-- /.container -->
 
-        <div class="works-container">
+        <div class="works-container" style="display: none;">
 
             <div id="works-grid" class="grid">
 
@@ -520,7 +523,22 @@
 
         </div> <!-- /.works-container -->
 
-    </section>
+        <div class="container">
+            <div class="row news">
+                <div class="col-md-12">
+                    <ul>
+                        <li><a href="javaScript:void();">[2018-12-12]&nbsp;新闻一</a></li>
+                        <li><a href="javaScript:void();">[2018-12-12]&nbsp;新闻二</a></li>
+                        <li><a href="javaScript:void();">[2018-12-12]&nbsp;新闻三</a></li>
+                        <li><a href="javaScript:void();">[2018-12-12]&nbsp;新闻四</a></li>
+                        <li><a href="javaScript:void();">[2018-12-12]&nbsp;新闻五</a></li>
+                        <li><a href="javaScript:void();">[2018-12-12]&nbsp;新闻六</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section s>
 
     <section id="about">
 
