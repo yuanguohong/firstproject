@@ -25,8 +25,8 @@ Route::any('/phpinfo', function (){
 });
 
 
-Route::get('/' , 'helloController@zjdIndex');
-Route::get('/index', 'helloController@index');
+Route::get('/index' , 'helloController@zjdIndex');
+Route::get('/', 'helloController@index');
 Route::get('/main', 'helloController@main');
 Route::get('/ceshi', 'helloController@ceshi');
 Route::get('/sendemail', 'helloController@sendEmail');
