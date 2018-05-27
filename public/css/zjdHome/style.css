@@ -438,15 +438,18 @@ HOME SECTION
 }
 
 .carousel .item_one {
-    background: url("/images/works/head_one.png") center center no-repeat;
+    /*background: url("/images/works/head_one.png") center center no-repeat;*/
+    background: url("/images/slider_background.jpg") center center no-repeat;
 }
 
 .carousel .item_two {
-    background: url("/images/works/head_two.png") center center no-repeat;
+    /*background: url("/images/works/head_two.png") center center no-repeat;*/
+    background: url("/images/slider_background.jpg") center center no-repeat;
 }
 
 .carousel .item_there {
-    background: url("/images/works/head_there.jpg") center center no-repeat;
+    /*background: url("/images/works/head_there.jpg") center center no-repeat;*/
+    background: url("/images/slider_background.jpg") center center no-repeat;
 }
 
 .carousel .item .overlay {
